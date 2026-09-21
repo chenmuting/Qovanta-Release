@@ -1,26 +1,36 @@
 # Changelog
 
-本项目的显著变更记录在此文件中。
+Qovanta 版本变更记录，版本号与应用内「设置 → 关于」展示的版本一致。
 
-格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，版本号遵循 [SemVer](https://semver.org/lang/zh-CN/)。
+格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
-## [Unreleased]
+## [1.1.6] - 2026-09-22
+
+### Changed
+
+- 串联链数组选择支持混合结果与连续多组选择：来源步骤混有单值与数组时整体按单值注入，不再误弹选择面板；同长度数组按行分组选择，不同长度数组在同一步骤内依次弹出面板逐个选择，全部选完才执行。
+
+### Fixed
+
+- 数组选择面板列表不刷新的问题。
+
+## [1.1.5] - 2026-09-21
 
 ### Added
 
-- （待补充）
+- 动态函数测试工具：接口编辑页顶栏「函数测试」，发送前预先验证 `{{fn:...}}` 的实际输出。
+- 新增 `{{fn:hmac-sha256:密钥:消息}}` 签名函数。
+- 应用内帮助文档支持导出。
 
-## [1.0.0] - 2026-09-21
+### Changed
+
+- 执行条件细化分支输出留空语义，数组按整体兜底判断。
+- HTML XPath 提取增强：谓词新增 `!=`、`starts-with()`、`not()`、`last()`。
+- cURL 导入解析增强；日志页长列表性能优化；侧滑操作交互完善。
+
+## [1.1.4] - 2026-09-20
 
 ### Added
 
-- 首个公开发布版本。
-- 接口调试：GET/POST/PUT/DELETE/PATCH/HEAD/OPTIONS，多种请求体与认证方式。
-- 占位符与动态参数：串联链变量、运行时输入、环境变量、动态函数。
-- 响应提取与结果处理：JSON 路径、HTML XPath 子集、正则替换、链式转换、执行条件。
-- 接口串联链：多接口顺序编排、错误策略、批量执行。
-- 数据备份与恢复：本地 JSON 备份、WebDAV 同步。
-- 运行日志：等级筛选、搜索、导出。
-
-[Unreleased]: https://github.com/chenmuting/Qovanta-Release/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/chenmuting/Qovanta-Release/releases/tag/v1.0.0
+- 接口级网络配置：单个接口可覆盖请求超时、失败重试、重试间隔与 SSL 校验策略。
+- 应用内 Markdown 帮助文档：接口编辑页各功能卡片内置说明入口。
