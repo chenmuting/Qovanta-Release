@@ -23,6 +23,20 @@ Qovanta 是一款 HarmonyOS 应用，用于配置、发送和管理 HTTP 请求�
 
 新用户可从 [快速上手](docs/快速上手.md) 开始体验。
 
+## 界面展示
+
+| 首页 | 接口编辑 |
+| --- | --- |
+| ![首页](screenshots/首页.jpg) | ![接口编辑](screenshots/接口编辑.jpg) |
+
+| 串联页 | 串联链编辑 |
+| --- | --- |
+| ![串联页](screenshots/串联页.jpg) | ![串联链编辑](screenshots/串联链编辑.jpg) |
+
+| 环境页 | 设置页 |
+| --- | --- |
+| ![环境页](screenshots/环境页.jpg) | ![设置页](screenshots/设置页.jpg) |
+
 ## 功能特性
 
 ### 接口调试
