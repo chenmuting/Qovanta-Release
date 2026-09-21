@@ -19,7 +19,7 @@ Qovanta 是一款 HarmonyOS 应用，用于配置、发送和管理 HTTP 请求�
 
 ## 下载与安装
 
-安装包发布在本仓库的 [Releases](../../releases) 页面，安装步骤见 [安装指南](docs/安装指南.md)。
+安装包发布在本仓库的 [Releases](../../releases) 页面，下载后请使用 hokit 或小白助手安装。
 
 新用户可从 [快速上手](docs/快速上手.md) 开始体验。
 
@@ -103,7 +103,6 @@ Qovanta 是一款 HarmonyOS 应用，用于配置、发送和管理 HTTP 请求�
 
 | 文档 | 说明 |
 | --- | --- |
-| [安装指南](docs/安装指南.md) | 下载与安装步骤 |
 | [快速上手](docs/快速上手.md) | 从创建接口到运行串联链 |
 | [提取规则文档](docs/提取规则文档.md) | JSON 路径与 HTML XPath 子集提取语法 |
 | [执行条件文档](docs/执行条件文档.md) | if/else if/else 分支链条件判断与输出 |
