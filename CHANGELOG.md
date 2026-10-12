@@ -4,6 +4,28 @@ Qovanta 版本变更记录，版本号与应用内「设置 → 关于」展示�
 
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [1.1.9] - 2026-10-13
+
+### Added
+
+- 响应体「JSON 树视图」：JSON 响应默认按层级树形展示，节点可折叠 / 展开，支持「树视图 / 原文」一键切换。
+- 动态变量函数大幅扩充：
+  - 编码加密类：`sha1`、`sha512`、`hmac-sha1`、`hmac-sha512`、`crc32`、`base64decode`、`urldecode`。
+  - 时间类：`httpdate`（HTTP 标准日期）、`rfc3339`，均支持 `d/h/m/s` 组合偏移。
+  - 随机类：`randomhex`（指定长度随机十六进制串）、`uuid` 支持 plain / upper 变体。
+  - 设备信息类：`devicetype`、`brand`、`model`、`osversion`、`apiversion`、`screenwidth`、`screenheight`、`locale`、`tzid`、`appversion`。
+  - 文本类：`upper`、`lower`、`jsonpath`。
+
+### Changed
+
+- HTML 提取重构为独立 XPath 引擎，支持标准 XPath 1.0 语法。
+- 提取路径默认值分隔符由 `|` 统一改为 `??`，避免与 XPath 并集运算符产生歧义。
+- 环境变量密钥支持启动自动迁移：历史明文密钥在应用启动时自动加密入库。
+- 帮助文档排版增强：支持任务清单勾选样式、代码块语言标签与一键复制、表格按对齐标记渲染，新增斜体、删除线、链接、图片等行内样式。
+- 串联链步骤编辑页的提取规则、变量、错误处理等元信息改为统一的标签行布局。
+- 步骤映射候选仅保留变量类型占位符，动态函数等不可映射项不再出现在映射面板中。
+- 加密相关能力增加设备兼容性判断，设备不支持时安全降级或给出明确提示。
+
 ## [1.1.8] - 2026-10-11
 
 ### Added
