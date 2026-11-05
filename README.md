@@ -21,7 +21,9 @@ Qovanta 是一款 HarmonyOS 应用，用于配置、发送和管理 HTTP 请求�
 
 ## 下载与安装
 
-安装包发布在本仓库的 [Releases](../../releases) 页面，下载后请使用 hokit 或小白助手安装。
+Qovanta 已在**华为应用市场**上架，可在应用市场中搜索「Qovanta」下载安装，或通过 [MeoW 频道](https://www.chuckfang.com/MeoW/appLinking?channelId=81213563e872418ea05dd3a100b57ee8) 获取内测与更新。
+
+本仓库不再提供安装包下载与版本发布，仅作为项目的公开说明与文档中心。
 
 新用户可从 [快速上手](docs/快速上手.md) 开始体验。
 
@@ -175,7 +177,7 @@ Qovanta 是一款 HarmonyOS 应用，用于配置、发送和管理 HTTP 请求�
 
 ## 版本历史
 
-见 [CHANGELOG](CHANGELOG.md)。
+见 [CHANGELOG](CHANGELOG.md)。版本记录随应用更新同步维护，本仓库不再单独发布版本标签。
 
 ## 许可证
 
