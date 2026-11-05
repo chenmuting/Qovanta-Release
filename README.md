@@ -167,7 +167,6 @@ Qovanta 已在**华为应用市场**上架，可在应用市场中搜索「Qovan
 | [占位符使用文档](docs/占位符使用文档.md) | 占位符、默认值、动态函数和示例 |
 | [正则规则文档](docs/正则规则文档.md) | 正则清理规则与示例 |
 | [网页渲染文档](docs/网页渲染文档.md) | 渲染模式、等待策略、快照与安全限制 |
-| [平板适配方案](docs/平板适配方案.md) | 多设备断点与宽屏布局适配说明 |
 | [隐私政策](https://chenmuting.cn/apps/qovanta/privacy) | 个人信息处理说明 |
 | [用户协议](https://chenmuting.cn/apps/qovanta/agreement) | 使用条款与行为规范 |
 
